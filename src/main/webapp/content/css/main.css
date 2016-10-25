@@ -254,6 +254,10 @@ Custom alerts for notification
 /* ==========================================================================
 entity tables helpers
 ========================================================================== */
+
+.gi-5x{font-size: 25em;}
+
+
 /* Remove Bootstrap padding from the element
    http://stackoverflow.com/questions/19562903/remove-padding-from-columns-in-bootstrap-3 */
 .no-padding-left { padding-left: 0 !important; }
