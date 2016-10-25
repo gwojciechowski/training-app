@@ -1,0 +1,12 @@
+version: '2'
+services:
+    trainingapp-postgresql:
+        container_name: trainingapp-postgresql
+        image: postgres:9.5.4
+        # volumes:
+        #     - ~/volumes/jhipster/TrainingApp/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=TrainingApp
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
